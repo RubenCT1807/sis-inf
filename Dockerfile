@@ -4,6 +4,6 @@ FROM nginx:alpine
 RUN apk add --no-cache git
 
 # Clona tu repo
-RUN git clone https://github.com/tu_usuario/hola-mundo-nginx.git /usr/share/nginx/html
+RUN git clone https://github.com/RubenCT1807/sis-inf/blob/main/index.html /usr/share/nginx/html
 
 # El resto lo maneja NGINX
